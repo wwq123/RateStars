@@ -19,6 +19,7 @@
 - (void)loadView {
   [super loadView];
   //self.title = @"Submit Review";
+    //qweqweqweqweq
     self.view.backgroundColor = [UIColor whiteColor];
   _tapRateView = [[RSTapRateView alloc] initWithFrame:CGRectMake(self.view.bounds.origin.x, self.view.bounds.origin.y, self.view.bounds.size.width, 50.f)];
   _tapRateView.delegate = self;
